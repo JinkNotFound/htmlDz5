@@ -225,7 +225,7 @@ button {
 	cursor: pointer;
 	border: unset;
 }
-. #buttonVideo {
+#buttonVideo {
 	color: rgb(170, 170, 170);
 	font-size: 16px;
 	font-weight: 600;
@@ -236,6 +236,19 @@ button {
 	box-shadow: none;
 	border-radius: unset;
 	margin-right: 0;
+}
+#buttonReadMore {
+	color: rgb(0, 0, 0);
+	font-family: 'Bold';
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 150%;
+	text-align: left;
+	background: none;
+	box-shadow: none;
+	border-radius: unset;
+	cursor: pointer;
+	border: 0px;
 }
 
 #redClr {
