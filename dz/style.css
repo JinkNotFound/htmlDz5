@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	background: #ffffff;
+	font-family: 'Bold', sans-serif;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+h1,
+h2 {
+	color: #000000;
+	font-family: 'Bold', sans-serif;
+}
+
+p,
+a,
+button {
+	color: #000000;
+	font-family: 'Medium';
+	font-weight: 700;
+}
+
+.header {
+	padding: 39px 0;
+	margin-top: 40px;
+	margin-bottom: 84px;
+}
+
+.navigation {
+	display: flex; /*Делаем управление флексом*/
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation div {
+	display: flex;
+	gap: 14px;
+	width: 533px;
+	justify-content: space-between;
+}
+
+.navigation a {
+	/*Вложенность, внутри класса navigation мы ищем тег a*/
+	font-size: 14px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.mainContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.mainContent__leftSide {
+	max-width: 556px;
+}
+
+.mainContent__leftSide p {
+	color: rgb(136, 136, 136);
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 32px;
+}
+
+.mainContent__leftSide h2 {
+	color: rgb(0, 0, 0);
+	font-size: 60px;
+	text-transform: uppercase; /*Делает весь текст верхнего регистра*/
+	margin-bottom: 20px;
+}
+
+.mainContent__leftSide-btnList {
+	display: flex;
+	gap: 48px;
+}
+
+.mainContent__leftSide-btnList button {
+	padding: 16px 10px;
+	border-radius: 56px;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	background: rgb(242, 88, 34);
+	color: rgb(255, 255, 255);
+	position: static;
+	width: 140px;
+	height: 51px;
+	font-size: 16px;
+	line-height: 19px;
+	cursor: pointer;
+	border: unset;
+}
+
+.container {
+	/*выравнивание по центру страницы*/
+	max-width: 1174px;
+	margin: 0 auto;
+	font-weight: 600;
+}
+
+.main {
+	margin-bottom: 100px;
+}
+
+.logos {
+	margin-top: 200px;
+	padding-bottom: 100px;
+}
+.main nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.mainBanner {
+	/* display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.footer {
+	background: rgb(250, 250, 250);
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	width: 310px;
+	height: 230px;
+}
+
+.banner img {
+	width: 70px;
+	height: 70px;
+}
+
+.centerBanner {
+	padding: 40px 34px;
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+	background: rgb(255, 255, 255);
+}
+
+.footerMainText h1 {
+	font-size: 48px;
+}
+
+.footerMainText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	text-align: center;
+}
+
+.footerMainText p {
+	width: 740px;
+}
+
+.cardList {
+	width: 378px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 34px 34px 34px;
+	margin: 0px 20px;
+}
+.cardList h2 {
+	font-family: 'Regular';
+	font-size: 24px;
+	font-weight: 700px;
+	line-height: 29px;
+	margin-bottom: 16px;
+}
+
+.cardList p {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 310px;
+	height: 72px;
+	margin-bottom: 24px;
+}
+
+.buttonFooter {
+	display: flex;
+	gap: 48px;
+}
+
+.buttonFooter button img {
+	margin: auto 0px auto 4px;
+}
+
+.buttonFooter button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 56px;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	background: rgb(242, 88, 34);
+	color: rgb(255, 255, 255);
+	width: 140px;
+	height: 51px;
+	font-size: 16px;
+	line-height: 19px;
+	cursor: pointer;
+	border: unset;
+}
+. #buttonVideo {
+	color: rgb(170, 170, 170);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+	letter-spacing: 0%;
+	text-align: left;
+	background: none;
+	box-shadow: none;
+	border-radius: unset;
+	margin-right: 0;
+}
+
+#redClr {
+	color: rgb(242, 88, 34);
+}
+
+@font-face {
+	font-family: 'Bold';
+	src: url('./fonts/Gilroy-Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Medium';
+	src: url('./fonts/Gilroy-Medium.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Regular';
+	src: url('./fonts/Gilroy-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Semibold';
+	src: url('./fonts/Gilroy-Semibold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
